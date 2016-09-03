@@ -12,6 +12,17 @@ I'm working on Ubuntu in docker container with debian jessie:
     $ docker -v
     Docker version 1.9.1, build a34a1d5
 
+
+<a href="http://jsdev.org/env/docker/run-container/">How to run docker container for start development</a>
+(If link will not work give me to know about it)
+
+
+
+<br/>
+
+### 1 Setup
+
+
 <br/>
 
     http://yeoman.io/generators/
@@ -48,6 +59,20 @@ I'm working on Ubuntu in docker container with debian jessie:
     $ gulp serve
 
 http://localhost:3000/
+
+
+![Mean](/img/01-setup.png?raw=true)
+
+
+<br/>
+
+### 2 Message Posting
+
+1 - Make an Angular post form
+
+
+![Mean](/img/02-01.png?raw=true)
+
 ___
 
 **Marley**
