@@ -164,6 +164,32 @@ http://localhost:9000/api/message
 
 ![Mean](/img/04-02.png?raw=true)
 
+<br/>
+
+3 - Set up Satellizer for registration
+
+https://github.com/sahat/satellizer
+
+
+    $ pwd
+    /projects/front-end
+
+    $ bower install --save satellizer
+
+
+![Mean](/img/04-03.png?raw=true)
+
+
+<br/>
+
+4 - Create a registration endpoint with Express
+
+
+
+
+
+
+
 <br/><br/>
 
 
