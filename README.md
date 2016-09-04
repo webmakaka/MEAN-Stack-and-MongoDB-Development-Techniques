@@ -133,6 +133,15 @@ http://localhost:3000/
     $ npm install --save mongoose
 
 
+<br/>
+
+2 - Create a message list endpoint with Express
+
+http://localhost:9000/api/message
+
+
+
+
 ___
 
 **Marley**
