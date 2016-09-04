@@ -36,7 +36,7 @@ I'm working on Ubuntu in docker container with debian jessie:
 <br/>
 
     $ cd /projects/
-    $ mkdir -p front-end
+    $ mkdir front-end
     $ cd front-end
     $ yo gulp-angular my-message-front
 
@@ -72,6 +72,41 @@ http://localhost:3000/
 
 
 ![Mean](/img/02-01.png?raw=true)
+
+
+2 - Create a post endpoint with Express
+
+
+    $ cd /projects/
+    $ mkdir back-end
+    $ cd back-end
+    $ npm init
+
+
+    name: (back-end) my-message-backend
+
+    $ npm install --save express
+    $ npm install --save body-parser
+
+    $ node server.js
+
+    PostMan:  
+    https://www.getpostman.com/
+
+    POST: http://localhost:9000/api/message
+
+    Body --> raw --> JSON (application/json)
+
+    {
+    "test": "works"
+    }
+
+    SEND
+
+
+    
+
+
 
 ___
 
