@@ -109,7 +109,19 @@ http://localhost:3000/
 
     3 - Send a post from Angular to the endpoint
 
-    
+<br/>
+
+    4 - Save to Mongo from the endpoint
+
+    $ npm install mongodb
+
+    // start mongodb server
+    $ mongod
+
+    // connect to mongodb server
+    $ mongo
+    > db.messages.find();
+
 
 
 
