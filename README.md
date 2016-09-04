@@ -158,9 +158,15 @@ http://localhost:9000/api/message
 ![Mean](/img/04-01.png?raw=true)
 
 
+<br/>
 
+2 - Create a password match Angular directive
+
+![Mean](/img/04-02.png?raw=true)
 
 <br/><br/>
+
+
 
 ___
 
