@@ -123,7 +123,14 @@ http://localhost:3000/
     > db.messages.find();
 
 
+<br/>
 
+### 3 Display Messages
+
+1 - Create a message list query with Mongo
+
+
+    $ npm install --save mongoose
 
 
 ___
