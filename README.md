@@ -74,6 +74,8 @@ http://localhost:3000/
 ![Mean](/img/02-01.png?raw=true)
 
 
+<br/>
+
 2 - Create a post endpoint with Express
 
 
@@ -103,8 +105,12 @@ http://localhost:3000/
 
     SEND
 
+<br/>
+
+    3 - Send a post from Angular to the endpoint
 
     
+
 
 
 
