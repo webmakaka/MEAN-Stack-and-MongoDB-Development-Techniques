@@ -147,6 +147,19 @@ http://localhost:9000/api/message
 ![Mean](/img/03-01.png?raw=true)
 
 
+
+<br/>
+
+### 4 Registration
+
+1 - Create a registration view in Angular
+
+
+![Mean](/img/04-01.png?raw=true)
+
+
+
+
 <br/><br/>
 
 ___
