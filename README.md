@@ -184,15 +184,25 @@ https://github.com/sahat/satellizer
 
 4 - Create a registration endpoint with Express
 
+<br/>
+
+5 - Save a user with Mongo
 
 
+    > db.users.find()
 
+    $ npm install --save jwt-simple
+    $ npm install --save moment
+
+
+Something not working!  
+And i have a next message in console:
+
+    Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
 
 
 
 <br/><br/>
-
-
 
 ___
 
