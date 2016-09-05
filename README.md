@@ -84,8 +84,11 @@ http://localhost:3000/
     $ cd back-end
     $ npm init
 
+<br/>
 
     name: (back-end) my-message-backend
+
+<br/>
 
     $ npm install --save express
     $ npm install --save body-parser
@@ -191,11 +194,23 @@ https://github.com/sahat/satellizer
 
     > db.users.find()
 
+<br/>
+
     $ npm install --save jwt-simple
     $ npm install --save moment
 
 
 ![Mean](/img/04-04.png?raw=true)
+
+
+<br/>
+
+6 - Associate a user with post when making a post
+
+
+    > db.messages.find();
+
+    
 
 
 <br/><br/>
