@@ -20,25 +20,26 @@ module.exports = {
                     res.status(500).send({
                         message: err.message
                     });
-
-                    res.status(200).send({
-                        token: createToken(result)
-                    });
                 }
+
+                res.status(200).send({
+                    token: createToken(result)
+                });
             });
         });
-
-
     }
 };
 
 
 function createToken(user){
+
     var payload = {
         sub: user._id,
         iat: moment().unix(),
         exp: moment().add(14, 'days').unix()
     };
+
+    console.log(jwt.encode(payload, 'secret'));
 
     return jwt.encode(payload, 'secret');
 }

@@ -195,11 +195,7 @@ https://github.com/sahat/satellizer
     $ npm install --save moment
 
 
-Something not working!  
-And i have a next message in console:
-
-    Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
-
+![Mean](/img/04-04.png?raw=true)
 
 
 <br/><br/>

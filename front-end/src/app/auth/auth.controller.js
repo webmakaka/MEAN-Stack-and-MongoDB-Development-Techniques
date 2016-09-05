@@ -12,5 +12,4 @@ export class AuthController {
             vm.$auth.setToken(token);
         });
     }
-
 }
