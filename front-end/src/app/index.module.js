@@ -5,6 +5,7 @@ import { routerConfig } from './index.route';
 import { runBlock } from './index.run';
 import { MainController } from './main/main.controller';
 import { AuthController } from './auth/auth.controller';
+import { NavbarController } from './components/navbar/navbar.controller';
 import { CompareToDirective } from './directives/compareTo.directive';
 import { GithubContributorService } from '../app/components/githubContributor/githubContributor.service';
 import { WebDevTecService } from '../app/components/webDevTec/webDevTec.service';
@@ -22,6 +23,7 @@ angular.module('myMessageFront', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSaniti
   .service('webDevTec', WebDevTecService)
   .controller('MainController', MainController)
   .controller('AuthController', AuthController)
+  .controller('NavbarController', NavbarController)
   .directive('acmeNavbar', NavbarDirective)
   .directive('acmeMalarkey', MalarkeyDirective)
   .directive('compareTo', CompareToDirective);

@@ -224,7 +224,15 @@ https://github.com/sahat/satellizer
 ![Mean](/img/05-01.png?raw=true)
 
 
+<br/>
 
+3 - Show logout in our navbar
+
+![Mean](/img/05-02.png?raw=true)
+
+![Mean](/img/05-03.png?raw=true)
+
+![Mean](/img/05-04.png?raw=true)
 
 
 
