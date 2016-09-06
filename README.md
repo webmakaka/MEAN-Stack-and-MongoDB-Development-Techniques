@@ -217,6 +217,14 @@ https://github.com/sahat/satellizer
 
 1 - Set up Satellizer for login
 
+<br/>
+
+2 - Create a login endpoint with Express
+
+![Mean](/img/05-01.png?raw=true)
+
+
+
 
 
 
