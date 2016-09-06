@@ -22,7 +22,9 @@ app.post('/auth/register', auth.register);
 
 mongoose.connect("mongodb://localhost:27017/test", function(err, db){
     if(!err){
-        console.log("we are connected to mongo");
+        console.log("We are connected to mongo");
+    } else {
+        console.log("Can't connect to mongo");
     }
 });
 

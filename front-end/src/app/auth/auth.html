@@ -4,14 +4,14 @@
       <div class="panel panel-default">
           <div class="panel-heading">Login</div>
           <div class="panel-body">
-              <form>
+              <form ng-submit="auth.login()">
                   <div class="form-group">
                       <label>Email address</label>
-                      <input type="email" class="form-control">
+                      <input type="email" class="form-control" ng-model="auth.login.user.email">
                   </div>
                   <div class="form-group">
                        <label>Password</label>
-                      <input type="password" class="form-control">
+                      <input type="password" class="form-control" ng-model="auth.login.user.pwd">
                   </div>
                   <button type="submit" class="btn btn-default">Submit</button>
               </form>

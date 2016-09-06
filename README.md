@@ -210,7 +210,15 @@ https://github.com/sahat/satellizer
 
     > db.messages.find();
 
-    
+
+<br/>
+
+### 5 Logging In
+
+1 - Set up Satellizer for login
+
+
+
 
 
 <br/><br/>
