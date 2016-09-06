@@ -1,4 +1,4 @@
-# MEAN Stack and MongoDB Development Techniques
+# [Lynda.com / Alexander Zanfir] MEAN Stack and MongoDB Development Techniques [2016, ENG]
 
 
 I'm working on Ubuntu in docker container with debian jessie:
@@ -234,6 +234,81 @@ https://github.com/sahat/satellizer
 
 ![Mean](/img/05-04.png?raw=true)
 
+
+___
+
+
+    $ npm list -g --depth=0
+    /usr/local/lib
+    ├── bower@1.7.9
+    ├── generator-gulp-angular@1.1.1
+    ├── gulp@3.9.1
+    ├── npm@2.15.9
+    └── yo@1.8.4
+
+<br/>
+
+    $ npm list --depth=0
+    myMessageFront@0.0.0 /projects/front-end
+    ├── babel-core@6.7.7
+    ├── babel-loader@6.2.5
+    ├── babel-preset-es2015@6.6.0
+    ├── browser-sync@2.9.12
+    ├── browser-sync-spa@1.0.3
+    ├── chalk@1.1.3
+    ├── del@2.0.2
+    ├── eslint@1.10.3
+    ├── eslint-loader@1.1.1
+    ├── eslint-plugin-angular@0.12.0
+    ├── estraverse@4.1.1
+    ├── gulp@3.9.1
+    ├── gulp-angular-templatecache@1.8.1
+    ├── gulp-autoprefixer@3.0.2
+    ├── gulp-cssnano@2.1.2
+    ├── gulp-eslint@1.0.0
+    ├── gulp-filter@3.0.1
+    ├── gulp-flatten@0.2.0
+    ├── gulp-htmlmin@1.3.0
+    ├── gulp-inject@3.0.0
+    ├── gulp-load-plugins@0.10.0
+    ├── gulp-protractor@2.1.0
+    ├── gulp-rename@1.2.2
+    ├── gulp-replace@0.5.4
+    ├── gulp-rev@6.0.1
+    ├── gulp-rev-replace@0.4.3
+    ├── gulp-sass@2.0.4
+    ├── gulp-size@2.0.0
+    ├── gulp-sourcemaps@1.6.0
+    ├── gulp-uglify@1.4.2
+    ├── gulp-useref@3.0.8
+    ├── gulp-util@3.0.7
+    ├── http-proxy-middleware@0.9.1
+    ├── jasmine-core@2.4.1
+    ├── karma@0.13.22
+    ├── karma-coverage@0.5.5
+    ├── karma-jasmine@0.3.8
+    ├── karma-ng-html2js-preprocessor@0.2.2
+    ├── karma-phantomjs-launcher@0.2.3
+    ├── karma-phantomjs-shim@1.2.0
+    ├── lodash@3.10.1
+    ├── main-bower-files@2.9.0
+    ├── ng-annotate-loader@0.0.10
+    ├── phantomjs@1.9.20
+    ├── uglify-save-license@0.4.1
+    ├── webpack@1.13.2
+    ├── webpack-stream@2.1.1
+    └── wiredep@2.2.2
+
+<br/>
+
+    $ npm list --depth=0
+    my-message-backend@1.0.0 /projects/back-end
+    ├── body-parser@1.15.2
+    ├── express@4.14.0
+    ├── jwt-simple@0.5.0
+    ├── moment@2.14.1
+    ├── mongodb@2.2.9
+    └── mongoose@4.6.0
 
 
 
